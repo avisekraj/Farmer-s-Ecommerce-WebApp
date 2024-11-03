@@ -36,6 +36,22 @@ To run this project locally, follow these steps:
    
 2. Navigate to the project directory:
 
-```bash
+   ```bash
    cd Farmer-s-Ecommerce-WebApp
+   
+3. Install dependencies:
 
+   ```bash
+   npm install
+   
+4. Create a .env file in the backend directory and set up your environment variables. You may need to include:
+
+    ```bash
+    MONGODB_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   PAYMENT_GATEWAY_KEY=your_payment_gateway_key and other stuffs
+
+5.  n a new terminal, start the server:
+
+```bash
+    npm start
